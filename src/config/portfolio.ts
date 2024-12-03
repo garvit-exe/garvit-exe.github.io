@@ -3,6 +3,7 @@ export interface PortfolioConfig {
   role: string;
   about: string;
   bio: string;
+  bio2?: string;
   contact: {
     email: string;
     github: string;
@@ -46,6 +47,7 @@ export const portfolioConfig: PortfolioConfig = {
   role: 'Full Stack Developer',
   about: 'Computer Science Student at VIT Bhopal',
   bio: 'Helping people solve problems through code.',
+  bio2: 'I\'ll help you transform your ideas into powerful digital solutions, delivering clean code and intuitive user experiences that drive real business results.',
   contact: {
     email: 'garvitbudhiraja02@gmail.com',
     github: 'https://github.com/garvit-exe',

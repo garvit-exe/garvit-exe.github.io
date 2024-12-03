@@ -48,34 +48,25 @@ export function Hero() {
             {portfolioConfig.bio}
           </motion.p>
 
-          {/* Social Links */}
+          {/* Action Buttons */}
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex items-center justify-center gap-6"
+            className="flex items-center justify-center gap-6 flex-col sm:flex-row"
           >
             <a
-              href={portfolioConfig.contact.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
+              href="/resume.pdf"
+              download="Garvit's Resume.pdf"
+              className="px-8 py-3 rounded-full bg-white text-gray-900 font-medium hover:bg-gray-100 transition-all duration-300 hover:scale-105 border-2 border-white"
             >
-              <Github size={24} />
-            </a>
-            <a
-              href={portfolioConfig.contact.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
-            >
-              <LinkedinIcon size={24} />
+              Download Resume
             </a>
             <a
               href={`mailto:${portfolioConfig.contact.email}`}
-              className="p-3 rounded-full bg-white/5 hover:bg-white/10 text-gray-300 hover:text-white transition-all duration-300 hover:scale-110"
+              className="px-8 py-3 rounded-full border-2 border-gray-300 text-gray-300 font-medium hover:text-white hover:border-white transition-all duration-300 hover:scale-105"
             >
-              <Mail size={24} />
+              Get in Touch
             </a>
           </motion.div>
         </div>
