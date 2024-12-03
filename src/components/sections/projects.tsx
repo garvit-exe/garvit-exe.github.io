@@ -71,17 +71,19 @@ export function Projects() {
                     <Github size={24} />
                     <span className="text-lg">View Code</span>
                   </motion.a>
-                  <motion.a
-                    href={project.link2}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200"
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <ExternalLink size={24} />
-                    <span className="text-lg">Live Link</span>
-                  </motion.a>
+                  {project.link2 && (
+                    <motion.a
+                      href={project.link2}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 text-gray-400 hover:text-white transition-colors duration-200"
+                      whileHover={{ scale: 1.05 }}
+                      whileTap={{ scale: 0.95 }}
+                    >
+                      <ExternalLink size={24} />
+                      <span className="text-lg">Live Link</span>
+                    </motion.a>
+                  )}
                 </div>
               </div>
             </motion.div>

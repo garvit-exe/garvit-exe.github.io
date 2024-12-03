@@ -21,7 +21,7 @@ export interface PortfolioConfig {
     description: string;
     tags: string[];
     link: string;
-    link2: string;
+    link2?: string;
     imageUrl: string;
   }>;
   skills: Array<{
@@ -82,7 +82,6 @@ export const portfolioConfig: PortfolioConfig = {
       description: "A comprehensive document management system built with modern web technologies, featuring secure document storage, version control, and collaboration tools.",
       tags: ["PHP", "PHPMyAdmin", "MySQL", "Web Development", "Authentication", "JQuery", "AJAX"],
       link: "https://github.com/garvit-exe/electronic-Document-Management-System",
-      link2: "",
       imageUrl: "/projects/edms.jpg"
     },
     {
@@ -106,7 +105,6 @@ export const portfolioConfig: PortfolioConfig = {
       description: "A Go-based CLI tool for analyzing local git repository statistics and metrics, providing insights into coding patterns and repository health.",
       tags: ["Go", "Git", "CLI", "Analytics"],
       link: "https://github.com/garvit-exe/git-local-stats",
-      link2: "",
       imageUrl: "/projects/git-local-stats.jpg"
     },
     {
@@ -122,7 +120,7 @@ export const portfolioConfig: PortfolioConfig = {
       description: "An efficient Sudoku puzzle solver implementing backtracking algorithm with a clean web interface.",
       tags: ["JavaScript", "Webpack", "Algorithms", "Problem Solving"],
       link: "https://github.com/garvit-exe/sudoku-solver",
-      link2: "",
+      link2: "https://visual-sudoku.vercel.app/",
       imageUrl: "/projects/sudoku-solver.gif"
     },
     {
@@ -138,7 +136,6 @@ export const portfolioConfig: PortfolioConfig = {
       description: "A network utility tool that enables remote wake-up of computers using the Wake-on-LAN protocol.",
       tags: ["C++", "Networking", "Systems Programming"],
       link: "https://github.com/garvit-exe/Program-using-Wake-on-LAN-protocol-to-remote-power-On-a-PC",
-      link2: "",
       imageUrl: "/projects/wol.jpg"
     }
   ],
