@@ -71,7 +71,7 @@ export function Projects() {
                     <Github size={24} />
                     <span className="text-lg">View Code</span>
                   </motion.a>
-                  {project.link2 && (
+                  {typeof project.link2 !== 'undefined' && project.link2 !== '' && (
                     <motion.a
                       href={project.link2}
                       target="_blank"
