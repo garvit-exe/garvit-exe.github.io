@@ -91,7 +91,7 @@ export const portfolioConfig: PortfolioConfig = {
       description: "A conversational AI assistant, capable of natural language understanding and task automation.",
       tags: ["Python", "OCR", "NLP", "API Integration", "Automation", "Speech Recognition", "Text-to-Speech", "Image Processing", "Web Scraping", "Speech Synthesis"],
       link: "https://github.com/garvit-exe/AliceAI",
-      link2: "https://docs.google.com/presentation/d/1fSFZcbGUrX5As5uabtDoFTy6BYVCajJYXH5c9ScAXCY/edit?usp=sharing",
+      link2: "https://docs.google.com/document/d/1jJStDdaVN6qvHryI5fAKuO8D4kB7DKy2/edit?usp=sharing&ouid=109342592180633449781&rtpof=true&sd=true",
       imageUrl: "/projects/aliceai.jpg"
     },
     {
