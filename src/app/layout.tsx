@@ -18,8 +18,6 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="icon" href="/favicon.svg" type="image/x-icon" />
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
       </head>
       <body className={inter.className}>
         {children}
